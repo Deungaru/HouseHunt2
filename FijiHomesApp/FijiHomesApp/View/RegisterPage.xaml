@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FijiHomesApp.View.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="{Binding Email}" Placeholder="Email"/>
+            <Entry Text="{Binding Password}" Placeholder="Password"/>
+            <Entry Text="{Binding ConfirmPassword}" Placeholder="Confirm Password"/>
+            <Entry Text="{Binding FirstName}" Placeholder="Firstname"/>
+            <Entry Text="{Binding LastName}" Placeholder="Lastname"/>
+            <Entry Text="{Binding Gender}" Placeholder="Gender"/>
+            <Entry Text="{Binding Street}" Placeholder="Street"/>
+            <Entry Text="{Binding City}" Placeholder="City"/>
+            <Entry Text="{Binding PhoneNum}" Placeholder="Phone Number"/>
+            <Entry Text="{Binding BirthDate}" Placeholder="Date of Birth"/>
+
+            <Button Command="{Binding RegisterCommand}" Text="Register"/>
+            <Label Text="{Binding Message}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
