@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:FijiHomesApp"
              x:Class="FijiHomesApp.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+	<Label Text="Welcome to our App" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 

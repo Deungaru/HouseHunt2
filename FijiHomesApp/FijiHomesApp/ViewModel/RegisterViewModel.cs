@@ -31,6 +31,7 @@ namespace FijiHomesApp.ViewModel
                 {
                     var isSuccess = await _apiServices.RegisterAsync(Email, Password, ConfirmPassword, FirstName, LastName,  Gender, Street, Çity, PhoneNum, BirthDate);
 
+                    
                     if (isSuccess)
                     {
                         Message = "Register Successfully";
